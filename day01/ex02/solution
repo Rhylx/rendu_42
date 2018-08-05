@@ -1,1 +1,0 @@
-find ex02/ -name find_sh.sh -type f -exec basename -s .sh {} \;
