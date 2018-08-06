@@ -1,0 +1,5 @@
+Credentials cache: API:1B8783BA-BB56-4B4A-9180-DF03E2BB7DC5
+        Principal: rpaegelo@42.FR
+
+  Issued                Expires               Principal
+Aug  6 12:06:33 2018  Aug 13 12:06:08 2018  krbtgt/42.FR@42.FR
