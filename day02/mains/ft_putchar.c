@@ -1,7 +1,5 @@
 # include <unistd.h>
 
-void ft_print_alphabet(void);
-
 void ft_putchar(char c)
 {
 	write(1,&c,1);
@@ -10,7 +8,9 @@ void ft_putchar(char c)
 
 int main()
 {
-
-  ft_print_alphabet();
-   return(123);
+	char c;
+	c='0';
+	c++;
+	ft_putchar(c);
+	return(0);
 }

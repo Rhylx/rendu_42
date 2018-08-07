@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rpaegelo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/07 11:57:22 by rpaegelo          #+#    #+#             */
-/*   Updated: 2018/08/07 16:17:03 by rpaegelo         ###   ########.fr       */
+/*   Created: 2018/08/07 17:46:47 by rpaegelo          #+#    #+#             */
+/*   Updated: 2018/08/07 17:48:53 by rpaegelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 
 void	ft_putchar(char c);
 
-void	ft_print_alphabet(void)
+void	ft_is_negative(int n)
 {
-	char	c;
-
-	c = 'a';
-	while (c <= 'z')
+	if (n < 0)
 	{
-		ft_putchar(c);
-		c++;
+		ft_putchar('N');
+	}
+	else
+	{
+		ft_putchar('P');
 	}
 }

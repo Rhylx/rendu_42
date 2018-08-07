@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rpaegelo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/07 11:57:22 by rpaegelo          #+#    #+#             */
-/*   Updated: 2018/08/07 16:17:03 by rpaegelo         ###   ########.fr       */
+/*   Created: 2018/08/07 13:38:50 by rpaegelo          #+#    #+#             */
+/*   Updated: 2018/08/07 13:43:05 by rpaegelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 
 void	ft_putchar(char c);
 
-void	ft_print_alphabet(void)
+void	ft_print_reverse_alphabet(void)
 {
-	char	c;
+	char c;
 
-	c = 'a';
-	while (c <= 'z')
+	c = 'z';
+	while (c >= 'a')
 	{
 		ft_putchar(c);
-		c++;
+		c--;
 	}
 }
